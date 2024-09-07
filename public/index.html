@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Budget</title>
-    <meta name="description" content="A free personal budger app">
-    <meta name="keywords" content="app free budget finance">
+    <!-- This is an SEO Change (additional info added to title)-->
+    <title>Personal Budget | A finance tracking app</title>
+    <!-- This is an SEO Change (budger type fixed, added more information)-->
+    <meta name="description" content="A free personal budget app to help you be efficient with your spending by tracking where your money goes and how you can save more!">
+    <!-- This is an SEO Change (more keywords added)-->
+    <meta name="keywords" content="app free budget finance money saving">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="main.css">
 </head>
@@ -22,17 +25,19 @@
         </ul>
     </nav>
 
-    <div class="hero">
+    <!-- This is a Semantic HTML Change (div to header) -->
+    <!-- This is an A11y Change (aria-label added) -->
+    <header class="hero" aria-label="Background image of a phone and laptop with charts">
         <h1>Personal Budget</h1>
         <h2>A personal-budget management app</h2>
-    </div>
+    </header>
 
     <main class="center" id="main">
-
-        <div class="page-area">
-
+        <!-- This is a Semantic HTML Change (div to section) -->
+        <section class="page-area">
+            <!-- This is an A11y Change (all article h1 to h2, creates clearer hierarchy for screen readers) -->
             <article>
-                <h1>Stay on track</h1>
+                <h2>Stay on track</h2>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
                     you would get surprised! Proper budget management depends on real data... and this
@@ -41,14 +46,14 @@
             </article>
     
             <article>
-                <h1>Alerts</h1>
+                <h2>Alerts</h2>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </article>
     
             <article>
-                <h1>Results</h1>
+                <h2>Results</h2>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
                     Also, they to live happier lives... since they expend without guilt or fear... 
@@ -57,14 +62,14 @@
             </article>
     
             <article>
-                <h1>Free</h1>
+                <h2>Free</h2>
                 <p>
                     This app is free!!! And you are the only one holding your data!
                 </p>
             </article>
     
             <article>
-                <h1>Stay on track</h1>
+                <h2>Stay on track</h2>
                 <p>
                     Do you know where you are spending your money? If you really stop to track it down,
                     you would get surprised! Proper budget management depends on real data... and this
@@ -73,35 +78,37 @@
             </article>
     
             <article>
-                <h1>Alerts</h1>
+                <h2>Alerts</h2>
                 <p>
                     What if your clothing budget ended? You will get an alert. The goal is to never go over the budget.
                 </p>
             </article>
     
             <article>
-                <h1>Results</h1>
+                <h2>Results</h2>
                 <p>
                     People who stick to a financial plan, budgeting every expense, get out of debt faster!
                     Also, they to live happier lives... since they expend without guilt or fear... 
                     because they know it is all good and accounted for.
                 </p>
             </article>
-    
+            
             <article>
-                <h1>Chart</h1>
+                <h2>Chart</h2>
                 <p>
-                    <canvas id="myChart" width="400" height="400"></canvas>
+                    <!-- This is an A11y Change (aria-label added) -->
+                    <canvas id="myChart" width="400" height="400" aria-label="A sample chart of a user's budget plan"></canvas>
                 </p>
             </article>
 
-        </div>
+        </section>
 
     </main>
 
     <footer class="bottom">
         <div class="center">
-            All rights reserved &copy; Fabio Nolasco
+            <!-- This is a Semantic HTML Change (wrapped in p rather than plain text) -->
+            <p>All rights reserved &copy; Janvi Nandwani</p>
         </div>
     </footer>
 
