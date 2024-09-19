@@ -8,6 +8,7 @@ const budget = require('./budget-data.json');
 
 app.use(cors());
 
+
 app.get('/budget', (req, res) => {
     res.json(budget);
 });
